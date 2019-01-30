@@ -1,9 +1,9 @@
-#Spring-cloud-security & sso Application
+# Spring-cloud-security & sso Application
 
-#Single Sign On
+# Single Sign On
 An OAuth2 Client can be used to fetch user details from the provider (if such features are available) and then convert them into an Authentication token for Spring Security. The Resource Server above support this via the user-info-uri property This is the basis for a Single Sign On (SSO) protocol based on OAuth2, and Spring Boot makes it easy to participate by providing an annotation @EnableOAuth2Sso. The Google client above can protect all its resources and authenticate using the Google /userinfo/ endpoint, by adding that annotation and declaring where to find the endpoint
 
-#Register the Application in Google
+# Register the Application in Google
 As you can see, the process requires a client identifier and a shared secret. To get them, you need a Google account.
 
 1.When you have one, log into Google API Console. https://console.developers.google.com
