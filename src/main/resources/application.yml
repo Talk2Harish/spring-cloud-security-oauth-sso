@@ -1,0 +1,17 @@
+server:
+  port: 8888
+   
+security:
+  oauth2:
+    client:
+      client-id: 
+      client-secret: 
+      access-token-uri: https://www.googleapis.com/oauth2/v3/token
+      user-authorization-uri: https://accounts.google.com/o/oauth2/auth
+      tokenName: oauth_token
+      authenticationScheme: query
+      client-authentication-scheme: form
+      scope: profile
+    resource:
+      user-info-uri: https://www.googleapis.com/userinfo/v2/me
+      prefer-token-info: false  
