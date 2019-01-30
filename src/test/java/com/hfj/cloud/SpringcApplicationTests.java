@@ -1,4 +1,4 @@
-package com.hh.cld;
+package com.hfj.cloud;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
